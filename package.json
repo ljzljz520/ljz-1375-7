@@ -1,0 +1,14 @@
+{
+  "name": "kilnfire",
+  "version": "0.1.0",
+  "private": true,
+  "description": "陶瓷窑火资料与预约站：窑址/釉色/器型/工序资料库 + 工坊预约 + 静态公开站发布",
+  "scripts": {
+    "start": "node src/server.js",
+    "seed": "node src/seed.js",
+    "test": "node --test test/"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.10.0"
+  }
+}
